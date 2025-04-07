@@ -194,8 +194,8 @@ if __name__ == '__main__':
     # 初次采集  1
     # 更新采集  2
     # 补录公告数据 3
-    # task_type = int(sys.argv[1])
-    task_type = 1
+    task_type = int(sys.argv[1])
+    # task_type = 1
     with open('task_list.json', 'r', encoding='utf-8') as f:
         name_list = json.loads(f.read())
 
